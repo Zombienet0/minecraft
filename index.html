@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft — Мир безграничных возможностей</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Хедер с навигацией -->
+    <header class="header">
+        <div class="logo">
+            <span class="logo-icon">⛏️</span>
+            <span class="logo-text">MINECRAFT</span>
+        </div>
+        <nav class="nav">
+            <a href="#home" class="nav-link active">Главная</a>
+            <a href="#features" class="nav-link">Особенности</a>
+            <a href="#mobs" class="nav-link">Мобы</a>
+            <a href="#modes" class="nav-link">Режимы</a>
+        </nav>
+        <div class="burger" id="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <!-- Главный экран -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">Добро пожаловать в <span class="accent">Minecraft</span></h1>
+            <p class="hero-subtitle">Строй, исследуй, выживай в мире безграничных возможностей из блоков</p>
+            <div class="hero-buttons">
+                <a href="#features" class="btn btn-primary">Узнать больше</a>
+                <a href="#modes" class="btn btn-secondary">Режимы игры</a>
+            </div>
+        </div>
+        <div class="hero-particles" id="particles"></div>
+    </section>
+
+    <!-- Особенности -->
+    <section class="features" id="features">
+        <h2 class="section-title">Особенности игры</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🌍</div>
+                <h3>Бесконечный мир</h3>
+                <p>Исследуй процедурно генерируемый мир без границ. Каждый раз — новые приключения.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🏗️</div>
+                <h3>Стройка</h3>
+                <p>Создавай любые постройки из блоков: от простых домиков до целых городов.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">⚔️</div>
+                <h3>Выживание</h3>
+                <p>Сражайся с мобами, добывай ресурсы, крафти предметы и оставайся в живых.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">👥</div>
+                <h3>Мультиплеер</h3>
+                <p>Играй с друзьями на серверах или создавай свои собственные миры.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Мобы -->
+    <section class="mobs" id="mobs">
+        <h2 class="section-title">Известные мобы</h2>
+        <div class="mobs-grid">
+            <div class="mob-card">
+                <div class="mob-emoji">🧟</div>
+                <h3>Зомби</h3>
+                <p>Враждебный моб, появляется ночью</p>
+            </div>
+            <div class="mob-card">
+                <div class="mob-emoji">💀</div>
+                <h3>Скелет</h3>
+                <p>Стреляет из лука, боится солнца</p>
+            </div>
+            <div class="mob-card">
+                <div class="mob-emoji">🟩</div>
+                <h3>Крипер</h3>
+                <p>Взрывается рядом с игроком</p>
+            </div>
+            <div class="mob-card">
+                <div class="mob-emoji">🐷</div>
+                <h3>Свинья</h3>
+                <p>Мирный моб, источник еды</p>
+            </div>
+            <div class="mob-card">
+                <div class="mob-emoji">🕷️</div>
+                <h3>Паук</h3>
+                <p>Лазает по стенам, атакует ночью</p>
+            </div>
+            <div class="mob-card">
+                <div class="mob-emoji">🧙</div>
+                <h3>Эндермен</h3>
+                <p>Телепортируется, боится воды</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Режимы игры -->
+    <section class="modes" id="modes">
+        <h2 class="section-title">Режимы игры</h2>
+        <div class="modes-grid">
+            <div class="mode-card">
+                <h3>🛡️ Выживание</h3>
+                <p>Добывай ресурсы, строй укрытия, сражайся с мобами и оставайся в живых. Классический режим с голодом и здоровьем.</p>
+            </div>
+            <div class="mode-card">
+                <h3>🎨 Творческий</h3>
+                <p>Неограниченные ресурсы, полёт и отсутствие урона. Идеально для строительства масштабных проектов.</p>
+            </div>
+            <div class="mode-card">
+                <h3>⚡ Хардкор</h3>
+                <p>Как выживание, но только одна жизнь. После смерти мир становится недоступен навсегда.</p>
+            </div>
+            <div class="mode-card">
+                <h3>👀 Наблюдатель</h3>
+                <p>Свободный полёт сквозь блоки и наблюдение за миром без возможности взаимодействия.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <p>⛏️ Сайт создан в учебных целях. Minecraft — торговая марка Mojang Studios.</p>
+        <p>&copy; 2024 Все права защищены</p>
+    </footer>
+
+    <!-- Кнопка наверх -->
+    <button class="scroll-top" id="scrollTop">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
